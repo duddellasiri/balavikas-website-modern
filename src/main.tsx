@@ -247,11 +247,11 @@ function App() {
         </div>
         <a
           className="button primary"
-          href="https://www.balavikas.org"
+          href="https://www.paypal.com/donate?token=uTWaq3vKewJKitCUOwEtZ6zMpdiF-F0sq27YS_vH_0qCsgcz3eyjXyITdntfUVKdS3lhizRkyIPijgpF"
           target="_blank"
           rel="noreferrer"
         >
-          Donation info <ArrowRight size={18} />
+          Donate via PayPal <ArrowRight size={18} />
         </a>
       </section>
 
