@@ -144,7 +144,7 @@ function App() {
       <section id="mission" className="section mission-band">
         <div>
           <p className="eyebrow">Mission</p>
-          <h2>Helping children build character through reflection, culture, and service.</h2>
+          <h2>Character through culture and service.</h2>
         </div>
         <div className="mission-content">
           <p>
