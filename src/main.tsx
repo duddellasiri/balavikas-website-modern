@@ -166,7 +166,7 @@ function App() {
             <CalendarDays size={22} />
             <span>
               <strong>Sundays, 4:00 PM to 5:30 PM</strong>
-              <small>Classes are currently listed at Chandrika Pusapati's home.</small>
+              <small>Classes are currently listed at Chandrika Pisupati's home.</small>
             </span>
           </div>
           <div>
