@@ -88,7 +88,7 @@ function YouthDayPage() {
       <section className="event-hero-detail">
         <div>
           <p className="eyebrow">Youth Day Competitions 2026</p>
-          <h1>Competition day for students from pre-elementary through high school.</h1>
+          <h1>Youth Day 2026.</h1>
           <p>
             All are welcome to participate. There is no cost for participation. All participants
             will be recognized with certificates, and winners will be awarded trophies.
