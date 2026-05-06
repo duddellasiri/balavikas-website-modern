@@ -361,9 +361,15 @@ footer p {
   box-shadow: 0 16px 50px rgba(63, 54, 36, 0.08);
 }
 
-.program-card {
+.program-card,
+.project-list article {
   min-height: 244px;
   padding: 1.3rem;
+}
+
+.program-card h3,
+.project-list h3 {
+  margin-top: 1rem;
 }
 
 .program-card p,
@@ -411,11 +417,6 @@ footer p {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
-}
-
-.project-list article {
-  min-height: 210px;
-  padding: 1.25rem;
 }
 
 .events {

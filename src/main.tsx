@@ -54,9 +54,18 @@ const programs = [
 ];
 
 const projects = [
-  "PROCEED Project: a Balavikas education initiative supporting talented students with limited resources.",
-  "Virtual Classroom Project: implemented with Ramakrishna Mission, Visakhapatnam, Andhra Pradesh, India.",
-  "Local outreach: service activities supporting shelters, nursing homes, medicine sorting, and eyeglass preparation.",
+  {
+    title: "PROCEED Project",
+    text: "A Balavikas education initiative supporting talented students with limited resources.",
+  },
+  {
+    title: "Virtual Classroom Project",
+    text: "Implemented with Ramakrishna Mission, Visakhapatnam, Andhra Pradesh, India.",
+  },
+  {
+    title: "Local Outreach",
+    text: "Service activities supporting shelters, nursing homes, medicine sorting, and eyeglass preparation.",
+  },
 ];
 
 function App() {
@@ -207,9 +216,10 @@ function App() {
         </div>
         <div className="project-list">
           {projects.map((project) => (
-            <article key={project}>
+            <article key={project.title}>
               <HeartHandshake size={24} />
-              <p>{project}</p>
+              <h3>{project.title}</h3>
+              <p>{project.text}</p>
             </article>
           ))}
         </div>
