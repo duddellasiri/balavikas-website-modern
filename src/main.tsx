@@ -19,6 +19,7 @@ import {
 import "./styles.css";
 
 const assetPath = (path: string) => `${import.meta.env.BASE_URL}${path}`;
+const pagePath = (path: string) => `${import.meta.env.BASE_URL}${path}`;
 
 const navItems = [
   { label: "Mission", href: "#mission" },
@@ -236,9 +237,7 @@ function App() {
         </div>
         <a
           className="event-card"
-          href="https://www.balavikas.org/youth.asp"
-          target="_blank"
-          rel="noreferrer"
+          href={pagePath("youth-day.html")}
         >
           <CalendarDays size={28} />
           <strong>View event details</strong>
