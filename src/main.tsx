@@ -228,7 +228,7 @@ function App() {
           <h2>Support Balavikas programs and service projects.</h2>
           <p>
             Donations may be made by check mailed to Balavikas, 20416 Oyster Reef Pl., Ashburn VA
-            20147. The original site also provides PayPal donation support.
+            20147.
           </p>
         </div>
         <a
