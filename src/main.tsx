@@ -93,10 +93,10 @@ function App() {
       <section id="top" className="hero">
         <div className="hero-copy">
           <p className="eyebrow">IRS recognized 501(c)(3) organization</p>
-          <h1>Values education, service, and culture for the next generation.</h1>
+          <h1>Rooted in values. Growing through service.</h1>
           <p>
-            Balavikas is a civic, social, and educational organization founded in 1989 to help
-            children grow into compassionate, capable, and open-minded adults.
+            Balavikas brings values education, service, and culture to children and families,
+            helping young people grow into compassionate, capable, and open-minded adults.
           </p>
           <div className="hero-actions">
             <a className="button primary" href="#programs">
