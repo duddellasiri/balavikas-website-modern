@@ -18,6 +18,8 @@ import {
 } from "lucide-react";
 import "./styles.css";
 
+const assetPath = (path: string) => `${import.meta.env.BASE_URL}${path}`;
+
 const navItems = [
   { label: "Mission", href: "#mission" },
   { label: "Programs", href: "#programs" },
@@ -41,7 +43,7 @@ const programs = [
   },
   {
     icon: HandHeart,
-    title: "Viveka Sena",
+    title: "Viveksena",
     text: "Youth service activities across the Washington, DC suburbs, including food service, companionship, supplies, and community support.",
   },
   {
@@ -64,7 +66,7 @@ function App() {
     <main>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Balavikas home">
-          <img src="/balavikas-logo.png" alt="" />
+          <img src={assetPath("balavikas-logo.png")} alt="" />
           <span>
             <strong>Balavikas</strong>
             <small>of Fairfax</small>
@@ -108,9 +110,21 @@ function App() {
           </div>
         </div>
         <div className="hero-visual" aria-label="Balavikas inspiration portraits">
-          <img className="portrait main" src="/vivekananda.jpg" alt="Swami Vivekananda" />
-          <img className="portrait offset top" src="/ramakrishna.jpg" alt="Sri Ramakrishna" />
-          <img className="portrait offset bottom" src="/sarada-devi.jpg" alt="Sarada Devi" />
+          <img
+            className="portrait main"
+            src={assetPath("vivekananda.jpg")}
+            alt="Swami Vivekananda"
+          />
+          <img
+            className="portrait offset top"
+            src={assetPath("ramakrishna.jpg")}
+            alt="Sri Ramakrishna"
+          />
+          <img
+            className="portrait offset bottom"
+            src={assetPath("sarada-devi.jpg")}
+            alt="Sarada Devi"
+          />
           <div className="stat">
             <strong>Since 1989</strong>
             <span>Serving families across Northern Virginia</span>
@@ -244,7 +258,7 @@ function App() {
       <footer id="contact">
         <div>
           <a className="brand footer-brand" href="#top">
-            <img src="/balavikas-logo.png" alt="" />
+            <img src={assetPath("balavikas-logo.png")} alt="" />
             <span>
               <strong>Balavikas</strong>
               <small>of Fairfax</small>
