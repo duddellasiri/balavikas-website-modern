@@ -203,11 +203,12 @@ function App() {
 
       <section id="events" className="section events">
         <div>
-          <p className="eyebrow">Upcoming Events</p>
+          <p className="eyebrow">Events</p>
           <h2>Youth Day Competitions 2025</h2>
           <p>
-            The legacy site lists the next major event for June 21, 2025 at SV Lotus Temple,
-            12501 Braddock Road, Fairfax, VA 22030.
+            The current legacy site still lists this June 21, 2025 event at SV Lotus Temple,
+            12501 Braddock Road, Fairfax, VA 22030. Future events can be added here when dates are
+            confirmed.
           </p>
         </div>
         <a
