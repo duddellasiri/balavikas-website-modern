@@ -204,11 +204,10 @@ function App() {
       <section id="events" className="section events">
         <div>
           <p className="eyebrow">Events</p>
-          <h2>Youth Day Competitions 2025</h2>
+          <h2>Youth Day Competitions 2026</h2>
           <p>
-            The current legacy site still lists this June 21, 2025 event at SV Lotus Temple,
-            12501 Braddock Road, Fairfax, VA 22030. Future events can be added here when dates are
-            confirmed.
+            Join Balavikas on July 11, 2026 at Vintage Park Plaza, 45365 Vintage Park Plaza,
+            Sterling, VA 20166.
           </p>
         </div>
         <a
@@ -219,7 +218,7 @@ function App() {
         >
           <CalendarDays size={28} />
           <strong>View event details</strong>
-          <span>Registration and judging information</span>
+          <span>July 11, 2026 in Sterling, Virginia</span>
         </a>
       </section>
 
