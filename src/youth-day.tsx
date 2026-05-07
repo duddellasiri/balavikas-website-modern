@@ -117,6 +117,11 @@ function YouthDayPage() {
               <small>45365 Vintage Park Plaza, Sterling, VA 20166</small>
             </span>
           </div>
+          <div className="trophy-note">
+            <Trophy size={30} />
+            <strong>Certificates for all participants</strong>
+            <span>Trophies awarded to winners.</span>
+          </div>
         </aside>
       </section>
 
@@ -187,6 +192,8 @@ function YouthDayPage() {
         <div>
           <p className="eyebrow">Questions</p>
           <h2>Contact the competition directors.</h2>
+        </div>
+        <div className="contact-card">
           <div className="contact-stack">
             <span>
               <Phone size={18} /> Vyochana Mamillapali: 571 395 3508
@@ -198,11 +205,6 @@ function YouthDayPage() {
               <Mail size={18} /> yd@balavikas.org
             </a>
           </div>
-        </div>
-        <div className="trophy-note">
-          <Trophy size={34} />
-          <strong>Certificates for all participants</strong>
-          <span>Trophies awarded to winners.</span>
         </div>
       </section>
     </main>
