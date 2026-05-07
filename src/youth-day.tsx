@@ -117,10 +117,12 @@ function YouthDayPage() {
               <small>45365 Vintage Park Plaza, Sterling, VA 20166</small>
             </span>
           </div>
-          <div className="trophy-note">
+          <div className="award-fact">
             <Trophy size={30} />
-            <strong>Certificates for all participants</strong>
-            <span>Trophies awarded to winners.</span>
+            <span>
+              <strong>Certificates for all participants</strong>
+              <small>Trophies awarded to winners.</small>
+            </span>
           </div>
         </aside>
       </section>
